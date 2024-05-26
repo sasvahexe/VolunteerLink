@@ -1,0 +1,249 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.main{
+    background: linear-gradient(180deg, rgba(242, 242, 242, 0) 1.04%, #F1F1F1 100%);
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 80px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 26px;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #193737;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a img {
+    margin-right: 3px;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.auth-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn {
+    display: flex;
+    margin-right: 10px;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #193737;
+    font-size: 14px;
+    border: none;
+}
+
+.login-btn img {
+    margin-right: 3px;
+}
+
+.organizer-btn img {
+    margin-right: 3px;
+}
+
+.organizer-btn {
+    display: flex;
+    margin-right: 10px;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #3B8363;
+    font-size: 14px;
+    border: 2px solid #193737;
+    text-align: center;
+}
+
+/*body*/
+
+.main-container{
+    margin: 18px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-container{
+    background-image: url(images/unsplash_K5OLjMlPe4U.png);
+    width: 462px;
+    height: 550px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-name{
+    color: #fff;
+}
+
+.login{
+    color: #fff;
+}
+
+.card-container{
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    background-color: #fff;
+    border: none;
+    margin-bottom: 30px;
+    width: 1166px;
+    height: 550px;
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+}
+
+.title{
+    margin-bottom: 20px;
+    padding-bottom: 40px !important;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 600;
+}
+
+.title-text{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.text{
+    color: #919aa3;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.info-container{
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
+    width: 564px;
+}
+
+.block-info{
+    margin-right: 32px;
+    width: 266px;
+    height: 78px;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: #193737;
+    padding: 18px 80px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+    margin-top: 50px;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-logo{
+    padding-bottom: 32px;
+}
+.ul-buttons-footer{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.li-buttons-footer{
+    margin-right: 32px;
+}
+
+.a-buttons-footer{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.footer-mail{
+    font-size: 18px;
+}
+
+.footer-number{
+    text-align: right;
+    font-size: 18px;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #193737;
+    margin-bottom: 20px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-text {
+    font-size: 14px;
+    font-weight: 400;
+}

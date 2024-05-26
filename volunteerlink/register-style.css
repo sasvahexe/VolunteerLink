@@ -1,0 +1,117 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(images/unsplash_K5OLjMlPe4U.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 177px;
+    margin-right: 177px;
+}
+
+.form {
+    background: #FFFFFF;
+    width: 600px;
+    border-radius: 12px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.form-group input {
+    outline: none;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 13px 16px;
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.form-group button {
+    background: #193737;
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+.form-group .form-remember {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-group input[type=date]{
+    width: 192px;
+}
+
+.form-panel {
+    padding: 40px 68.5px 0 68.5px;
+}
+
+.form-header {
+    margin: 0 0 40px;
+}
+
+.form-header h1 {
+    color: #193737;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    line-height: 40px;
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.form-text-register{
+    margin: 0;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-button{
+    margin-left: 13px;
+}
+
+.form-group-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
